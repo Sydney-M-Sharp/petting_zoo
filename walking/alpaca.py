@@ -1,10 +1,10 @@
 from datetime import date
 
-class Alpaca:
-    """constructs an Alpaca 
-    """
 
-    def __init__(self,name, species, shift):
+class Alpaca:
+    """constructs an Alpaca"""
+
+    def __init__(self, name, species, shift):
         self.name = name
         self.species = species
         self.date_added = date.today()

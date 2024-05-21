@@ -1,13 +1,13 @@
 # import the python datetime module to help us create a timestamp
 # from datetime import date
 
-from slithering import Copperheads
-from walking import Llamas, Goat, Alpaca
+from slithering import Copperhead, Boa, Cobra, Python, Viper
+from walking import Llama, Goat, Alpaca, Giraffe, Camel
 from swimming import Goldfish, Seal, Shark, Turtle, Whale
 
 
-# Walking animals below:
-miss_fuzz = Llamas("morning")
+# --Walking animals below:--
+miss_fuzz = Llama("morning")
 # ^ here i am calling the class above. When i call it it will return based on what in the init
 # miss_fuzz is an object that matches the init above
 miss_fuzz.name = "Miss Fuzz"
@@ -16,12 +16,20 @@ miss_fuzz.species = "Domestic llama"
 # this is called an instance^
 larry = Goat("Larry", "Dwarf Goat", "afternoon")
 roberto = Alpaca("Roberto", "Huacaya Alpaca", "midday")
+mandy = Giraffe("Mandy", "Reticulated Giraffe", "morning")
+phil = Camel("Phil", "Bactrian Camel", "morning")
 
-# Slithering animals below:
-pete = Copperheads("Pete", "Copperhead")
+
+# --Slithering animals below:--
+pete = Copperhead("Pete", "Brown Copperhead")
 # here we are creating an instance the verb being to instantiate
+susan = Boa("Susan","Madagascar Tree Boa")
+charles = Cobra("Charles","King Cobra")
+simba = Python("Simba","Ball Python")
+judy = Viper("Judy", "Pit Viper")
 
-# Swimming animals below:
+
+# --Swimming animals below:--
 jeff = Goldfish("Jeff", "Goldfish")
 # here we are creating an instance the verb being to instantiate
 # here i am instantiating a class
@@ -35,5 +43,3 @@ print(pete.name)
 print(
     f"{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift."
 )
-
-# todo: make 15 total classes^ and instantiate each animal.designate 5 critter each to go in these areas. As you define each one, give it one of the following properties where most appropriate:

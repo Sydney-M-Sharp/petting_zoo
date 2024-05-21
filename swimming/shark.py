@@ -1,9 +1,10 @@
 from datetime import date
 
+
 class Shark:
-    """constructs a shark 
-    """
-    def __init__(self,name,species):
+    """constructs a shark"""
+
+    def __init__(self, name, species):
         self.name = name
         self.species = species
         self.date_added = date.today()

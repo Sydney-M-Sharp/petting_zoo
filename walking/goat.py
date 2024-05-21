@@ -1,8 +1,10 @@
 from datetime import date
 
-class Goat:
 
-    def __init__(self,name, species, shift):
+class Goat:
+    """Constructs a Goat"""
+
+    def __init__(self, name, species, shift):
         # Establish the properties of each animal
         # with a default value
         self.name = name
