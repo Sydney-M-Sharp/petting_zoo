@@ -1,8 +1,8 @@
 from datetime import date
 
 
-class Copperhead:
-    """Constructs a Copperhead"""
+class Python:
+    """Constructs a Python"""
 
     def __init__(self, name, species):
         self.name = name
