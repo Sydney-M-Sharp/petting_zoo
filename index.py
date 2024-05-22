@@ -43,4 +43,6 @@ print(pete.name)
 print(
     f"{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift."
 )
-print(miss_fuzz.feed())
+miss_fuzz.feed()
+
+print(miss_fuzz)
