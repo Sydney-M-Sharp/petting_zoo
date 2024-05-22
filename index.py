@@ -7,25 +7,25 @@ from swimming import Goldfish, Seal, Shark, Turtle, Whale
 
 
 # --Walking animals below:--
-miss_fuzz = Llama("morning")
+miss_fuzz = Llama("Miss Fuzz", "Domestic llama", "morning", "Llama Chow")
 # ^ here i am calling the class above. When i call it it will return based on what in the init
 # miss_fuzz is an object that matches the init above
-miss_fuzz.name = "Miss Fuzz"
-miss_fuzz.species = "Domestic llama"
+# miss_fuzz.name = "Miss Fuzz"
+# miss_fuzz.species = "Domestic llama"
 # here i am setting the values for the properties above^
 # this is called an instance^
-larry = Goat("Larry", "Dwarf Goat", "afternoon")
-roberto = Alpaca("Roberto", "Huacaya Alpaca", "midday")
-mandy = Giraffe("Mandy", "Reticulated Giraffe", "morning")
-phil = Camel("Phil", "Bactrian Camel", "morning")
+larry = Goat("Larry", "Dwarf Goat", "afternoon", "hay")
+roberto = Alpaca("Roberto", "Huacaya Alpaca", "midday", "veggies")
+mandy = Giraffe("Mandy", "Reticulated Giraffe", "morning", "carrot")
+phil = Camel("Phil", "Bactrian Camel", "morning", "children")
 
 
 # --Slithering animals below:--
 pete = Copperhead("Pete", "Brown Copperhead")
 # here we are creating an instance the verb being to instantiate
-susan = Boa("Susan","Madagascar Tree Boa")
-charles = Cobra("Charles","King Cobra")
-simba = Python("Simba","Ball Python")
+susan = Boa("Susan", "Madagascar Tree Boa")
+charles = Cobra("Charles", "King Cobra")
+simba = Python("Simba", "Ball Python")
 judy = Viper("Judy", "Pit Viper")
 
 
@@ -43,3 +43,6 @@ print(pete.name)
 print(
     f"{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift."
 )
+miss_fuzz.feed()
+
+print(miss_fuzz)
